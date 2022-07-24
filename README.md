@@ -16,10 +16,10 @@ NumPy, Pandas, Sckit-Learn, Keras, Flask, Beautiful Soup, Matplotlib & Seaborne.
 # Real Estate Scraper/Project 1
 Real Estate Scraper -- Scraps Realtor.com, when given certain cities, for list prices, links, bed,bath, square feet, price per square feet, year built, property & house style, and other attributes. Scraper has the ability to scrap multiple cities & pages of realtor.com at one time, or one at a time. 
 
-Real Estate Wrangler -- Once the data is pulled and compiled into a data-frame, the wrangler script cleans the data to make it more readable and performs some feature engineering to create new metrics to future model use.
+Real Estate Wrangler -- Once the data is pulled and compiled into a data-frame, the wrangler script cleans the data to make it more readable and performs some feature engineering to create new metrics to future model use. An regression model was used to predict house prices, based on x variables that were scraped and engineered
 
 # Stock Direction Prediction/Project 2
-Developed a system to predict stock direction using a set of variables from yahoo finance and some engineered, using logistic regression & SVM. 
+Developed a system to predict stock direction using a set of variables from yahoo finance and some engineered, using logistic regression & SVM models. 
 
 # Kafka Producer & Consumer 
 Mimic real-time streaming data-feed. Notebook loads processed data and publishes data at an approrpiate time. 
@@ -33,5 +33,8 @@ Script that uses kafka-python library to consume messages from a Kafka Topic. No
 # Variational Autoencoder
 Implement a variational autoencoder using the MNIST data set and save a grid of 15 x 15 digits
 
-#Dynamic RSI Builder
+# Dynamic RSI Builder
 Script that builds an range of RSI values, which is an indicator used for technical analysis in trading, and then performs a correlation analysis on the value and correlation between the dynamic RSI values and the associated variables in the yahoo finance dataset
+
+# Hotel Reccomendation 
+Create an optimal hotel recommendation for Expdia users. We predicted which hotel cluster an user is likley to book given their search details. A random forest classifier was used. 

@@ -6,7 +6,7 @@ Real Estate Wrangler -- Once the data is pulled and compiled into a data-frame, 
 # Stock Direction Prediction/Project 2
 Developed a system to predict stock direction using a set of variables from yahoo finance and some engineered, using logistic regression & SVM. 
 
-#Kafka Producer & Consumer 
+# Kafka Producer & Consumer 
 Mimic real-time streaming data-feed. Notebook loads processed data and publishes data at an approrpiate time. 
 
 # Kafka Producer
@@ -14,3 +14,6 @@ The following script uses the kafka-python library to publish messages to Kafka 
 
 # Kafka Consumer
 Script that uses kafka-python library to consume messages from a Kafka Topic. Notebook conumes messages from the Kafka producer to validate messages are properly publishing to the appropriate topics. 
+
+# Variational Autoencoder
+Implement a variational autoencoder using the MNIST data set and save a grid of 15 x 15 digits

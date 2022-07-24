@@ -32,3 +32,6 @@ Script that uses kafka-python library to consume messages from a Kafka Topic. No
 
 # Variational Autoencoder
 Implement a variational autoencoder using the MNIST data set and save a grid of 15 x 15 digits
+
+#Dynamic RSI Builder
+Script that builds an range of RSI values, which is an indicator used for technical analysis in trading, and then performs a correlation analysis on the value and correlation between the dynamic RSI values and the associated variables in the yahoo finance dataset

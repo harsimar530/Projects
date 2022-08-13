@@ -21,6 +21,9 @@ Real Estate Wrangler -- Once the data is pulled and compiled into a data-frame, 
 # Stock Direction Prediction/Project 2
 Developed a system to predict stock direction using a set of variables from yahoo finance and some engineered, using logistic regression & SVM models. 
 
+# Hotel Reccomendation 2/Project 3
+Create an hotel cluster reccomendation by clustering similiar reviews together and basing reccomendation with grouped reviews. Predominately used TF-IDF to review text similiarties. Improved from previous hotel reccomendation -- heavily utilizing text and TF-IDF
+
 # Kafka Producer & Consumer 
 Mimic real-time streaming data-feed. Notebook loads processed data and publishes data at an approrpiate time. 
 
@@ -39,5 +42,4 @@ Script that builds an range of RSI values, which is an indicator used for techni
 # Hotel Reccomendation 
 Create an optimal hotel recommendation for Expdia users. We predicted which hotel cluster an user is likley to book given their search details. A random forest classifier was used. 
 
-# Hotel Reccomendation 2
-Create an hotel cluster reccomendation by clustering similiar reviews together and basing reccomendation with grouped reviews. Predominately used TF-IDF to review text similiarties. 
+

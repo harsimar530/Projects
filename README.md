@@ -38,3 +38,6 @@ Script that builds an range of RSI values, which is an indicator used for techni
 
 # Hotel Reccomendation 
 Create an optimal hotel recommendation for Expdia users. We predicted which hotel cluster an user is likley to book given their search details. A random forest classifier was used. 
+
+#Hotel Reccomendation 2
+Create an hotel cluster reccomendation by clustering similiar reviews together and basing reccomendation with grouped reviews
